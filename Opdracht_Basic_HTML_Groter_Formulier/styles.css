@@ -1,0 +1,82 @@
+body {
+    color: rgba(82, 100, 255, 0.808);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.black-border {
+    border-bottom: 5px solid black;
+    width: 570px;
+}
+#yellow-background {
+    background-color: yellow;
+    width: 500px;
+}
+.color1 {
+    color: coral;
+}
+.color2 {
+    color: crimson;
+}
+.color3 {
+    color: darkmagenta;
+}
+#new-color {
+    background-color: yellow;
+    width: 600px;
+}
+.color-id1 {
+    color: violet;
+}
+.color-id2 {
+    color: turquoise;
+}
+.color-id3 {
+    color: salmon;
+}
+.color-id4 {
+    color: purple;
+}
+
+header {
+    border: 10px 20px cornflowerblue;
+}
+
+main {
+    border: 20px cornflowerblue;
+    margin: 10px 15px;
+    padding: 10px 20px;
+}
+
+.paragraaf {
+    margin: 0 auto;
+    width: 25%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    display: inline-flex;
+}
+
+.home {
+    margin-right: 10px;
+}
+
+.about {
+    margin-right: 10px;
+}
+
+.books {
+    margin-right: 10px;
+}
+
+/* Media Queries */
+
+@media (min-width: 1024px){
+    body{
+        background-color: burlywood;
+        color: crimson;
+        font-size: .75rem;
+        line-height: 30px;
+    }    
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="about"><a href="about.html">About</a></li>
+                <li class="books"><a href="Books">Books</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="fname">Name:</label><br>
+            <input type="text" name="fname">
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email">
+            <br>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" name="phone_number">
+            <br>
+            <label for="age">Age:</label><br>
+            <input type="text" name="age">
+            <br>
+            <label for="dob">Date of birth:</label><br>
+            <input type="date" name="dob"><br>
+            <br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender">
+            <label for="Male">Man</label><br>
+            <input type="radio" name="gender">
+            <label for="Female">Woman</label><br>
+            <br>
+            <label for="cuisine">Favourite cuisine:</label><br>
+            <input type="checkbox" name="french">
+            <label for="french">French</label><br>
+            <input type="checkbox" name="italian">
+            <label for="italian">Italian</label><br>
+            <input type="checkbox" name="spanish">
+            <label for="spanish">Spanish</label><br>
+            <input type="checkbox" name="arabic">
+            <label for="arabic">Arabic</label><br>
+            <br>
+            <label for="skirt">Favourite color skirt:</label><br>
+            <input type="color" name="color_picker"><br>
+            <br>
+            <label for="bio">Biography</label><br>
+            <textarea>
+
+            </textarea><br>
+            <br>
+            <label for="upload">Upload your latest recipe:</label><br>
+            <input type="file" name="upload_file"><br>
+            <br>
+            <label for="url">The adres of your recipe website</label><br>
+            <input type="url" name="recipe_website"><br>
+            <br>
+            <input type="reset" name=reset_button>
+            <input type="submit" name="submit button">
+        </form>
+    </main>
+    <footer>This page was written by J. Sumter</footer>
+</body>
+</link>
+
+</html>
